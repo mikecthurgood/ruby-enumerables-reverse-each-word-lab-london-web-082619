@@ -1,5 +1,5 @@
 def reverse_each_word(string)
-  sdorw = []
+  reversed = []
   string.each | word | do
     sdorw.push(word.reverse)
   end
